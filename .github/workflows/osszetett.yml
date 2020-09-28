@@ -2,9 +2,9 @@ name: ci
 
 on:
   push:
-    branches: [master]
-  tags:
-    - 'v*.*.*'
+    #branches: [master]
+    tags:
+      - 'v*.*.*'
 jobs:
   docker:
     runs-on: ubuntu-latest
