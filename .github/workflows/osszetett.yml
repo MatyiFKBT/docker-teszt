@@ -31,7 +31,7 @@ jobs:
         name: Prepare
         id: prep
         run: |
-          DOCKER_IMAGE=matyifkbt/docker-teszt/img
+          DOCKER_IMAGE=ghcr.io/matyifkbt/docker-teszt/img
           VERSION=noop
           if [[ $GITHUB_REF == refs/tags/* ]]; then
             VERSION=${GITHUB_REF#refs/tags/}
