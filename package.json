@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/MatyiFKBT/docker-teszt/issues"
   },
-  "homepage": "https://github.com/MatyiFKBT/docker-teszt#readme"
+  "homepage": "https://github.com/MatyiFKBT/docker-teszt#readme",
+  "release": {
+    "plugins": [
+      ["@semantic-release/npm", {
+        "npmPublish": false,
+        "tarballDir": "dist"
+      }]
+    ]
+  }
 }
