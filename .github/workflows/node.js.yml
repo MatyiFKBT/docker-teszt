@@ -22,7 +22,10 @@ jobs:
         node-version: 12
     - run: npm ci
     - run: npm run test --if-present
-    - run: echo ${{github}} 
+    - name: Dump GitHub context
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: echo "$GITHUB_CONTEXT"
     - run: npx semantic-release
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
