@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/MatyiFKBT/docker-teszt/compare/v1.8.1...v1.8.2) (2020-09-30)
+
+
+### Bug Fixes
+
+* my email ([18ee720](https://github.com/MatyiFKBT/docker-teszt/commit/18ee7204c4830bd7fe6032c53c33271e2418de54))
+
 ## [1.8.1](https://github.com/MatyiFKBT/docker-teszt/compare/v1.8.0...v1.8.1) (2020-09-30)
 
 
