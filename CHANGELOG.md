@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/MatyiFKBT/docker-teszt/compare/v1.7.1...v1.8.0) (2020-09-30)
+
+
+### Features
+
+* 3 sosperec ([1298263](https://github.com/MatyiFKBT/docker-teszt/commit/1298263e12a4e891038c7c2a3d914f8534fb621b))
+
 # [1.0.0](https://github.com/MatyiFKBT/docker-teszt/compare/v1.7.0...v1.0.0) (2020-09-30)
 
 
@@ -206,6 +213,3 @@
 
 
 ## 0.0.1 (2020-09-28)
-
-
-
