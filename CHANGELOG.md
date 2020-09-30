@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/MatyiFKBT/docker-teszt/compare/v1.8.0...v1.8.1) (2020-09-30)
+
+
+### Bug Fixes
+
+* my name ([02ecdf1](https://github.com/MatyiFKBT/docker-teszt/commit/02ecdf1d77285a9447a87d8361cdbb9933911f10))
+
 # [1.8.0](https://github.com/MatyiFKBT/docker-teszt/compare/v1.7.1...v1.8.0) (2020-09-30)
 
 
