@@ -25,3 +25,5 @@ jobs:
     - run: npx semantic-release
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        GIT_AUTHOR_NAME: ${{ github.repository_owner }}
+        GIT_COMMITTER_NAME: ${{ github.repository_owner }}
