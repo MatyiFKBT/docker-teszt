@@ -1,4 +1,4 @@
-FROM node:12-slim
+FROM arm32v7/node:12-slim
 
 # Create app directory
 WORKDIR /usr/src/app
