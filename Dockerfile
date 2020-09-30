@@ -1,4 +1,4 @@
-FROM arm32v7/node:12-slim
+FROM node:lts-stretch-slim
 
 # Create app directory
 WORKDIR /usr/src/app
