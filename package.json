@@ -6,7 +6,9 @@
   "dependencies": {
     "boxen": "^4.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1"
+  },
   "scripts": {
     "start": "node src/index.js",
     "build": "docker build -t matyi/teszt ."
@@ -25,13 +27,20 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      ["@semantic-release/npm", {
-        "npmPublish": false,
-        "tarballDir": "dist"
-      }],
-      ["@semantic-release/github", {
-        "assets": "dist/*.tgz"
-      }]
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false,
+          "tarballDir": "dist"
+        }
+      ],
+      [
+        "@semantic-release/github",
+        {
+          "assets": "dist/*.tgz"
+        }
+      ]
     ]
   }
 }
